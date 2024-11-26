@@ -15,8 +15,10 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    
-    
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+       
 }
 
 .header_container {
@@ -28,6 +30,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
     
 }
 
@@ -47,8 +50,10 @@ a {
 
 main{
 
+    padding-top: 80px;
     display: flex;
     justify-content: center;
+    
     
 }
 
@@ -107,6 +112,15 @@ main{
     display: flex;
 }
 
+.cuore {
+    position: absolute;
+    top: 1%;
+    right: 0%;
+    display: flex;
+
+
+}
+
 .box_sconti_rosso{
 
     
@@ -150,13 +164,12 @@ main{
 
 .box_cuore_nero{
 
-    position: absolute;
+    
     background-color: rgb(255, 255, 255);
     font-size: 15px;
     color: rgb(0, 0, 0);
     padding: 9px;
-    top: 1%;
-    right: 0%;
+    
     
 }
 
