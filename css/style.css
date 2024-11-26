@@ -1,0 +1,45 @@
+
+/* regole generali di pagina */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Regole header */
+
+header {
+
+    background-color: orange;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.header_container {
+    /* debug */
+    height: 60px;
+    /* background-color: aqua; */
+    
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+#logo-boolean {
+    
+    height: 80%;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+/* Regole main */
