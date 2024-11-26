@@ -72,9 +72,6 @@ main{
 .box_immagini {
     position: relative;
 
-
-
-
 }
 
 #lista_prodotti {
@@ -161,6 +158,27 @@ main{
     top: 1%;
     right: 0%;
     
+}
+
+/* Regole hover */
+
+.img_hover {
+
+    max-width: 100%;
+    margin-bottom: 2px;
+    display: none;
+
+    position: absolute;
+
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+}
+
+.box_immagini:hover .img_hover {
+
+    display: block;
 }
 
 
