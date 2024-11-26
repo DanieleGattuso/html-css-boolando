@@ -10,7 +10,7 @@
 
 header {
 
-    background-color: orange;
+    background-color: rgb(255, 140, 0);
     height: 80px;
     display: flex;
     justify-content: center;
@@ -34,6 +34,7 @@ header {
 #logo-boolean {
     
     height: 80%;
+    
 }
 
 a {
@@ -68,6 +69,14 @@ main{
 }
 
 /* Regole prodotti */
+.box_immagini {
+    position: relative;
+
+
+
+
+}
+
 #lista_prodotti {
 
     display: flex;
@@ -94,41 +103,39 @@ main{
     margin-bottom: 2px;
 }
 /* Box sconti */
-.box_sconti_rosso{
+.sconti {
 
     position: absolute;
+    top: 75%;
+    display: flex;
+}
+
+.box_sconti_rosso{
+
+    
     background-color: red;
     font-size: 15px;
     color: white;
     padding: 4px;
-    top: 75%;
+    
     
 }
 
 .box_sconti_verde{
 
-    position: absolute;
+    
     background-color: rgb(5, 83, 8);
     font-size: 15px;
     color: white;
     padding: 4px;
-    top: 75%;
-    left: 15%;
     
-}
-
-#sostenibilita_6img{
-
-    position: absolute;
-    background-color: rgb(5, 83, 8);
-    font-size: 15px;
-    color: white;
-    padding: 4px;
-    top: 75%;
+    
     
 }
 
 
+
+/* Prezzi */
 
 .prezzi_rossi {
 
@@ -140,4 +147,18 @@ main{
 
     text-decoration: line-through;
 
+}
+
+/* Box cuore */
+
+.box_cuore_nero{
+
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    padding: 9px;
+    top: 1%;
+    right: 0%;
+    
 }
